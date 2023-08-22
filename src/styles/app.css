@@ -44,4 +44,19 @@
     margin-top: 5px;
     display: block;
   }
-  
+
+  .form-container > input {
+    width: 80%;
+  }
+
+    ul {
+      width: 93%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    
+    li {
+      width: 100%;
+    }

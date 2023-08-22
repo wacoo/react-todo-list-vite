@@ -6,7 +6,6 @@ const TodosList = (props) => {
   const { todosProps, handleChange, delTodo } = props;
   console.log(todosProps);
   return (
-    <div className='yyy'>
     <ul>
         {todosProps.map((todo) => (
           <TodoItem
@@ -16,7 +15,6 @@ const TodosList = (props) => {
           delTodo={delTodo} />
         ))}
       </ul>
-    </div>
   );
 }
 

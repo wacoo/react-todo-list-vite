@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import TodosLogic from './components/TodosLogic.jsx';
-import './styles/style.css';
+import './styles/app.css';
+import TodoApp from './components/TodoApp.jsx';
 
 const rootElement = document.getElementById('root');
 
 const root = ReactDOM.createRoot(rootElement);
-root.render(<TodosLogic />);
+root.render(<TodoApp />);
